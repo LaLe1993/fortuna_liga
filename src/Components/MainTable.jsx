@@ -69,8 +69,8 @@ class MainTable extends React.Component {
         return(
             <Container fluid="md">
                 <Row>
-                    <Col className='my-5' responsive="md">
-                        <Table striped bordered hover>
+                    <Col className='my-5'>
+                        <Table striped bordered hover responsive>
                             <thead>
                                 <tr>
                                     <th>#</th>
