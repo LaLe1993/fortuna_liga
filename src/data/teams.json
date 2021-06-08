@@ -1,0 +1,218 @@
+[
+        {
+                "id" : 1,
+                "teamName" : "GRMECLIJE",
+                "W" : 23,
+                "D" : 2,
+                "L" : 1,
+                "DG" : 201,
+                "PG" : 66
+        },
+        {
+                "id" : 2,
+                "teamName" : "LIVADICA",
+                "W" : 21,
+                "D" : 2,
+                "L" : 3,
+                "DG" : 160,
+                "PG" : 72
+        },
+        {
+                "id" : 3,
+                "teamName" : "FORTUNA",
+                "W" : 18,
+                "D" : 4,
+                "L" : 4,
+                "DG" : 167,
+                "PG" : 96
+        },
+        {
+                "id" : 4,
+                "teamName" : "REKREATIVO",
+                "W" : 13,
+                "D" : 2,
+                "L" : 11,
+                "DG" : 122,
+                "PG" : 121
+        },
+        {
+                "id" : 5,
+                "teamName" : "VOCNJAK 9",
+                "W" : 19,
+                "D" : 1,
+                "L" : 5,
+                "DG" : 179,
+                "PG" : 115
+        },
+        {
+                "id" : 6,
+                "teamName" : "LAVOVI",
+                "W" : 18,
+                "D" : 0,
+                "L" : 8,
+                "DG" : 129,
+                "PG" : 93
+        },
+        {
+                "id" : 7,
+                "teamName" : "PIRAMIDA",
+                "W" : 16,
+                "D" : 4,
+                "L" : 7,
+                "DG" : 127,
+                "PG" : 82
+        },
+        {
+                "id" : 8,
+                "teamName" : "NEXTOME",
+                "W" : 15,
+                "D" : 4,
+                "L" : 7,
+                "DG" : 166,
+                "PG" : 115
+        },
+        {
+                "id" : 9,
+                "teamName" : "LEVONOGI",
+                "W" : 16,
+                "D" : 1,
+                "L" : 9,
+                "DG" : 159,
+                "PG" : 140
+        },
+        {
+                "id" : 10,
+                "teamName" : "JEDVA SKUPLJENI",
+                "W" : 14,
+                "D" : 4,
+                "L" : 9,
+                "DG" : 120,
+                "PG" : 84
+        },
+        {
+                "id" : 11,
+                "teamName" : "ZA NASU DUSU",
+                "W" : 14,
+                "D" : 1,
+                "L" : 11,
+                "DG" : 136,
+                "PG" : 123
+        },
+        {
+                "id" : 12,
+                "teamName" : "CURUG ONLINE",
+                "W" : 12,
+                "D" : 2,
+                "L" : 12,
+                "DG" : 143,
+                "PG" : 153
+        },
+        {
+                "id" : 13,
+                "teamName" : "BIJELJINA",
+                "W" : 11,
+                "D" : 4,
+                "L" : 11,
+                "DG" : 132,
+                "PG" : 128
+        },
+        {
+                "id" : 14,
+                "teamName" : "OTPISANI",
+                "W" : 10,
+                "D" : 3,
+                "L" : 14,
+                "DG" : 177,
+                "PG" : 138
+        },
+        {
+                "id" : 15,
+                "teamName" : "GRADSKO ZELENILO",
+                "W" : 9,
+                "D" : 5,
+                "L" : 13,
+                "DG" : 124,
+                "PG" : 133
+        },
+        {
+                "id" : 16,
+                "teamName" : "TRECE POLUVREME",
+                "W" : 9,
+                "D" : 2,
+                "L" : 14,
+                "DG" : 146,
+                "PG" : 184
+        },
+        {
+                "id" : 17,
+                "teamName" : "DEVILS",
+                "W" : 9,
+                "D" : 1,
+                "L" : 16,
+                "DG" : 110,
+                "PG" : 154
+        },
+        {
+                "id" : 18,
+                "teamName" : "KARLOVCI CENTAR",
+                "W" : 7,
+                "D" : 5,
+                "L" : 14,
+                "DG" : 146,
+                "PG" : 184
+        },
+        {
+                "id" : 19,
+                "teamName" : "VETERNIK",
+                "W" : 7,
+                "D" : 2,
+                "L" : 17,
+                "DG" : 113,
+                "PG" : 136
+        },
+        {
+                "id" : 20,
+                "teamName" : "RESTORAN SAT",
+                "W" : 6,
+                "D" : 1,
+                "L" : 19,
+                "DG" : 92,
+                "PG" : 167
+        },
+        {
+                "id" : 21,
+                "teamName" : "ZNANJE",
+                "W" : 5,
+                "D" : 2,
+                "L" : 19,
+                "DG" : 117,
+                "PG" : 222
+        },
+        {
+                "id" : 22,
+                "teamName" : "CARPET FARAON",
+                "W" : 4,
+                "D" : 3,
+                "L" : 19,
+                "DG" : 112,
+                "PG" : 191
+        },
+        {
+                "id" : 23,
+                "teamName" : "FILOZOFI",
+                "W" : 4,
+                "D" : 3,
+                "L" : 19,
+                "DG" : 113,
+                "PG" : 206
+        },
+        {
+                "id" : 24,
+                "teamName" : "PIVO JUNAJTED",
+                "W" : 3,
+                "D" : 2,
+                "L" : 21,
+                "DG" : 86,
+                "PG" : 184
+        }
+]
