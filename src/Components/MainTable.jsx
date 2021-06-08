@@ -69,7 +69,7 @@ class MainTable extends React.Component {
         return(
             <Container>
                 <Row>
-                    <Col className='my-5'>
+                    <Col className='my-5 mx-1'>
                         <Table striped bordered hover>
                             <thead>
                                 <tr>
