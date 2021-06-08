@@ -67,7 +67,7 @@ class MainTable extends React.Component {
     render(){
         console.log(Teams)
         return(
-            <Container>
+            <Container fluid="md">
                 <Row>
                     <Col className='my-5' responsive="md">
                         <Table striped bordered hover>
