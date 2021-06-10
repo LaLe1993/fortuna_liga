@@ -1,8 +1,12 @@
 import MainTable from './Components/MainTable'
+import NewTabel from './Components/NewTabel'
 
 function App() {
   return (
-    <MainTable />
+    <>
+      <NewTabel />
+      <MainTable />
+    </>
   );
 }
 
