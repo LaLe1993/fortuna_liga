@@ -54,6 +54,10 @@ class MainTable extends React.Component {
         return MP
     }
 
+    showTeam = (igraci) => {
+        console.log(igraci)
+    }
+
     // componentDidMount=async()=>{
     //     let response= await fetch(`http://127.0.0.1:3003/teams`,{
     //         headers: new Headers({
@@ -65,7 +69,6 @@ class MainTable extends React.Component {
     //  }
 
     render(){
-        console.log(Teams)
         return(
             <Container fluid="md">
                 <Row>
@@ -88,7 +91,7 @@ class MainTable extends React.Component {
                             <tbody>
                                 {/* {this.state.teams.map((team, index) => <TeamTable team={team.team} teamMembers={team.teamMembers} key={team.id} index={index}/>)} */}
                                 {this.state.teams.map((team, index) => 
-                                                                    <tr key={team.id}>
+                                                                    <tr key={team.id} onClick={e => this.showTeam(team.igraci)} style={{cursor:'pointer'}}>
                                                                         <td>{index + 1}</td>
                                                                         <td>{team.teamName}</td>
                                                                         <td>{this.matchesPlayed(team.W,team.D,team.L)}</td>
@@ -103,6 +106,11 @@ class MainTable extends React.Component {
                                 )}
                             </tbody>
                         </Table>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        
                     </Col>
                 </Row>
             </Container>

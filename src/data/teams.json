@@ -2,6 +2,16 @@
         {
                 "id" : 1,
                 "teamName" : "GRMECLIJE",
+                "igraci" : [{
+                                "name":"Branko Perinovic",
+                                "golova":69,
+                                "odbrana":0
+                        },{
+                                "name":"Marko Trifunovic",
+                                "golova":28,
+                                "odbrana":0
+                        }
+                        ],
                 "W" : 23,
                 "D" : 2,
                 "L" : 1,
@@ -29,6 +39,60 @@
         {
                 "id" : 4,
                 "teamName" : "REKREATIVO",
+                "igraci": [{
+                                "name":"Strahinja Lalovic",
+                                "golova":14,
+                                "odbrana":24
+                        },{
+                                "name":"Mile Djukic",
+                                "golova":27,
+                                "odbrana":0
+                        },{
+                                "name":"Branislav Popovic",
+                                "golova":12,
+                                "odbrana":0
+                        },{
+                                "name":"Ivan Kijanovic",
+                                "golova":3,
+                                "odbrana":121
+                        },{
+                                "name":"Stefan Djordjevski",
+                                "golova":14,
+                                "odbrana":5
+                        },{
+                                "name":"Dusan Prodanovic",
+                                "golova":11,
+                                "odbrana":0
+                        },{
+                                "name":"Dejan Knezevic",
+                                "golova":10,
+                                "odbrana":12
+                        },{
+                                "name":"Acimovic Filip",
+                                "golova":6,
+                                "odbrana":8
+                        },{
+                                "name":"Blagojev Nenad",
+                                "golova":6,
+                                "odbrana":0
+                        },{
+                                "name":"Zeljko Ac",
+                                "golova":4,
+                                "odbrana":0
+                        },{
+                                "name":"Aleksandar Tanjga",
+                                "golova":3,
+                                "odbrana":0
+                        },{
+                                "name":"Fedor Acimovic",
+                                "golova":3,
+                                "odbrana":0
+                        },{
+                                "name":"Vukasin Tatic",
+                                "golova":1,
+                                "odbrana":0
+                        }
+                        ],
                 "W" : 13,
                 "D" : 2,
                 "L" : 11,
