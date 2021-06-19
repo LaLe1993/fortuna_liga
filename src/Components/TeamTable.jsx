@@ -1,45 +1,43 @@
 import React from 'react'
+import {Form,Button,Row,Col} from 'react-bootstrap'
+import Teams from '../data/teams.json'
 
-class TeamTable extends React.Component{
-    
-    goalDivercity = () => {
-        let DG = this.props.team.DG
-        let PG = this.props.team.PG
-        let GR = DG-PG
-        return GR
+class TeamTabel extends React.Component {
+    state={
+        teams:[Teams]
     }
 
-    totalPts = () => {
-        let W = this.props.team.W
-        let D = this.props.team.D
-        let Pts = W*3+D
-        return Pts
-    }
-
-    matchesPlayed = () => {
-        let W = this.props.W
-        let D = this.props.team.D
-        let L = this.props.team.L
-        let MP = W+D+L
-        return MP
-    }
-
-    render(){
-        return(
-            <tr>
-                <td>{this.props.index + 1}</td>
-                <td onClick={() => {console.log(this.props)}}>{this.props.team}</td>
-                {/* <td>{this.matchesPlayed()}</td>
-                <td>{this.props.team.W}</td>
-                <td>{this.props.team.D}</td>
-                <td>{this.props.team.L}</td>
-                <td>{this.props.team.DG}</td>
-                <td>{this.props.team.PG}</td>
-                <td>{this.goalDivercity()}</td>
-                <td>{this.totalPts()}</td> */}
-            </tr>
-        )
-    }
+render(){
+    console.log(this.state.teams)
+    return(
+        <Form className='mx-3'>
+            <Row>
+                <Col className='col-4'>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>DOMACIN</Form.Label>
+                        <Form.Control as="select">
+                            { Teams.map(opt => (<option>{opt.teamName}</option>)) }
+                        </Form.Control>
+                    </Form.Group>
+                </Col>
+                <Col className='col-3' style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                    <Col className='col-5'>5</Col>-<Col className='col-5'>6</Col>
+                </Col>
+                <Col className='col-4'>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>GOST</Form.Label>
+                        <Form.Control as="select">
+                            { Teams.map(opt => (<option>{opt.teamName}</option>)) }
+                        </Form.Control>
+                    </Form.Group>
+                </Col>
+            </Row>
+            <Button variant="primary" type="submit">
+                Submit
+            </Button>
+        </Form>
+    )
+}
 }
 
-export default TeamTable;
+export default TeamTabel;
